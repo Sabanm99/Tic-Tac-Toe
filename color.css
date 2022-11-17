@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h2{
+    background-color: #fff;
+    padding: 7px 13px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    background-color: rgba(157, 0, 255, 0.229);
+}
+
+#btn{
+    font-size: 1.3rem;
+    padding: 1em 1em;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: rgba(157, 0, 255, 0.229);
+}
+
+#btn:active{
+    transform: scale(0.95);
+}
